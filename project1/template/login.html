@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+
+</head>
+<body>
+    {% block content %}
+
+
+<h1 style="text-align:center">Login</h1>
+<div style=" padding-bottom: 50px;  padding-left: 35%;">
+
+    <div id='reg' align="center"  style=" border-style: inset;height: 200px;
+         width: 55%;padding-top: 4%;  padding-right: 50px;  padding-bottom: 50px;  padding-left: 15px;">
+    <form action='login' method="post" autocomplete="off" style="text-align:left" >
+         {% csrf_token %}
+
+        <input type="text" id="user" name="username" placeholder="User Name"  style="height:40px;width:90%;border-radius:5px;margin-bottom:10px;" required><br>
+
+        <input type="password" id="pword" name="password" placeholder="Password" style="height:40px;width:90%;border-radius:5px;margin-bottom:10px;" required ><br>
+        <input type="Submit" value="&nbsp;&nbsp;Sign In&nbsp;&nbsp;" style="padding-left:10px;padding-right:10px;">
+
+         </form>
+
+
+    </div>
+</div>
+<div>
+        {% for message in messages%}
+        <h3>
+            {{message}}
+        </h3>
+        {% endfor%}
+    </div>
+{% endblock %}
+</body>
+</html>

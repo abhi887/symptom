@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5a71da3b-bb3d-49fa-a62c-432b3c46f385" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1YZFI6E4oc92OAy779D99IIIunT" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/project1" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="327" y="45" key="FileChooserDialogImpl" timestamp="1583273893778">
+      <screen x="0" y="0" width="1093" height="576" />
+    </state>
+    <state x="327" y="45" key="FileChooserDialogImpl/0.0.1093.576@0.0.1093.576" timestamp="1583273893778" />
+    <state x="58" y="0" key="SettingsEditor" timestamp="1583192144955">
+      <screen x="0" y="0" width="1093" height="576" />
+    </state>
+    <state x="58" y="0" key="SettingsEditor/0.0.1093.576@0.0.1093.576" timestamp="1583192144955" />
+  </component>
+</project>

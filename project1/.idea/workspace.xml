@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="526366f3-df5b-42e2-acd5-7c813f12c756" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PATH_TO_GIT" value="C:\Program Files\Git\bin\git.exe" />
+    <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="Git.Update.Project.Info.Tabs.Properties">
+    <option name="FILTERS">
+      <map>
+        <entry key="structure">
+          <value>
+            <list>
+              <option value="dir:D:/python_work_space/.idea" />
+              <option value="dir:D:/python_work_space/project1" />
+              <option value="dir:D:/python_work_space/venv" />
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="2ce8beca-e7a7-4938-8f0c-6f10c251c69e" />
+  </component>
+  <component name="ProjectId" id="1YdYNRvwTGf1wk2Heyz2rGpTVRv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/css" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\python_work_space\project1\assets\css" />
+      <recent name="D:\python_work_space\project1\static\css" />
+      <recent name="D:\python_work_space\project1\symptom" />
+      <recent name="D:\python_work_space\project1\symptom_checker" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="view" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="project1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\python_work_space\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project1" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project1/view.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.view" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="BEK_SORT_TYPE" value="1" />
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Paths">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="dir:D:/python_work_space/.idea" />
+                  <option value="dir:D:/python_work_space/project1" />
+                  <option value="dir:D:/python_work_space/venv" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myShow1" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="139" y="0" key="#Inspections" timestamp="1585280998124">
+      <screen x="0" y="0" width="1093" height="576" />
+    </state>
+    <state x="139" y="0" key="#Inspections/0.0.1093.576@0.0.1093.576" timestamp="1585280998124" />
+    <state x="139" y="0" key="#Notifications" timestamp="1585690074850">
+      <screen x="0" y="0" width="1093" height="576" />
+    </state>
+    <state x="139" y="0" key="#Notifications/0.0.1093.576@0.0.1093.576" timestamp="1585690074850" />
+    <state x="293" y="0" key="#view" timestamp="1583359046917">
+      <screen x="0" y="0" width="1093" height="576" />
+    </state>
+    <state x="293" y="0" key="#view/0.0.1093.576@0.0.1093.576" timestamp="1583359046917" />
+    <state x="327" y="45" key="FileChooserDialogImpl" timestamp="1585690714484">
+      <screen x="0" y="0" width="1093" height="576" />
+    </state>
+    <state x="327" y="45" key="FileChooserDialogImpl/0.0.1093.576@0.0.1093.576" timestamp="1585690714484" />
+    <state x="374" y="205" key="Github.CreateGistDialog" timestamp="1585693509654">
+      <screen x="0" y="0" width="1093" height="576" />
+    </state>
+    <state x="374" y="205" key="Github.CreateGistDialog/0.0.1093.576@0.0.1093.576" timestamp="1585693509654" />
+    <state width="1071" height="133" key="GridCell.Tab.0.bottom" timestamp="1583364396961">
+      <screen x="0" y="0" width="1093" height="576" />
+    </state>
+    <state width="1071" height="133" key="GridCell.Tab.0.bottom/0.0.1093.576@0.0.1093.576" timestamp="1583364396961" />
+    <state width="1071" height="133" key="GridCell.Tab.0.center" timestamp="1583364396959">
+      <screen x="0" y="0" width="1093" height="576" />
+    </state>
+    <state width="1071" height="133" key="GridCell.Tab.0.center/0.0.1093.576@0.0.1093.576" timestamp="1583364396959" />
+    <state width="1071" height="133" key="GridCell.Tab.0.left" timestamp="1583364396958">
+      <screen x="0" y="0" width="1093" height="576" />
+    </state>
+    <state width="1071" height="133" key="GridCell.Tab.0.left/0.0.1093.576@0.0.1093.576" timestamp="1583364396958" />
+    <state width="1071" height="133" key="GridCell.Tab.0.right" timestamp="1583364396959">
+      <screen x="0" y="0" width="1093" height="576" />
+    </state>
+    <state width="1071" height="133" key="GridCell.Tab.0.right/0.0.1093.576@0.0.1093.576" timestamp="1583364396959" />
+    <state x="58" y="0" key="SettingsEditor" timestamp="1585693436754">
+      <screen x="0" y="0" width="1093" height="576" />
+    </state>
+    <state x="58" y="0" key="SettingsEditor/0.0.1093.576@0.0.1093.576" timestamp="1585693436754" />
+    <state x="359" y="206" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586317162558">
+      <screen x="0" y="0" width="1093" height="576" />
+    </state>
+    <state x="359" y="206" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1093.576@0.0.1093.576" timestamp="1586317162558" />
+    <state x="327" y="95" key="git4idea.history.wholeTree.VcsStructureChooser" timestamp="1585692731162">
+      <screen x="0" y="0" width="1093" height="576" />
+    </state>
+    <state x="327" y="95" key="git4idea.history.wholeTree.VcsStructureChooser/0.0.1093.576@0.0.1093.576" timestamp="1585692731162" />
+    <state x="203" y="119" key="run.anything.popup" timestamp="1585173343400">
+      <screen x="0" y="0" width="1093" height="576" />
+    </state>
+    <state x="203" y="119" key="run.anything.popup/0.0.1093.576@0.0.1093.576" timestamp="1585173343400" />
+    <state x="209" y="-1" key="search.everywhere.popup" timestamp="1585693070853">
+      <screen x="0" y="0" width="1093" height="576" />
+    </state>
+    <state x="209" y="-1" key="search.everywhere.popup/0.0.1093.576@0.0.1093.576" timestamp="1585693070853" />
+  </component>
+</project>
