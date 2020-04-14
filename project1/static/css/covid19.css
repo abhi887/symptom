@@ -1,0 +1,43 @@
+.covid_nav{
+background-color:black;
+color:white;
+overflow: hidden;
+font-size:30px;
+border-radius:10px 10px 0px 0px;
+}
+.covid_nav a{
+float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.active1{
+background-color:grey;
+}
+.covid_nav a:hover {
+  color: white;
+}
+.covid_text{
+border:inset;
+border-radius:0 0 10px 10px;
+font-size:20px;
+}
+.covid_info{
+padding-top:5px;
+border:inset;
+border-radius:10px;
+}
+.covid-box{
+height:37px;width:100px;border:solid;border-radius:10px;margin-left:5px;padding:.5%;
+}
+.covid-box2{
+height:40px;width:280px;border:solid;border-radius:10px;margin-left:5px;padding:.5%;
+margin-bottom:5px;
+}
+.covid-box1{
+height:37px;width:130px;border:solid;border-radius:10px;margin-left:5px;padding:.5%;
+margin-bottom:10px;
+}
+

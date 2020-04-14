@@ -4,39 +4,99 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="static/css/basecs.css">
+    <link rel="stylesheet" type="text/css" href="static/css/index.css">
+    <link rel="stylesheet" type="text/css" href="static/css/about.css">
+
+    <link rel="stylesheet" type="text/css" href=static/css/contact.css>
+
+    <link rel="stylesheet" type="text/css" href=static/css/registration.css>
+
+    <link rel="stylesheet" type="text/css" href=static/css/login.css>
+    <link rel="stylesheet" type="text/css" href=static/css/covid19.css>
+
+
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <title>base</title>
+    <title>Symptom Checker</title>
   </head>
   <body>
   <header>
     <div class="container-fluid" id="main-header">
       <div class="row">
         <div class="col-sm-5 col-xs-5 col-md-5 col-lg-5">
-          <img src="static/img/symp.png" style="height:120px;width:200px" >
+          <img src="static/img/sympchec.png" class="headimg">
         </div>
         <div class="col-sm-5 col-xs-5 col-md-5 col-lg-5">
-          <nav>
-             <a class="active"href='index.html'>home</a>
-              <a href='about.html'>about</a>
-              <a href='contact.html'>Contact</a>
-              {% if user.is_authenticated %}
-                Hello,{{user.first_name}}
-                <a href='logout'>Logout</a>
-              {% else %}
-                <a href='registration.html'>Registration</a>
-                <a href='login.html'>Login</a>
-              {% endif %}
+          <div class="topnav">
+            <a class="active" href='index.html'>Home</a>
+            <a href='about.html'>About</a>
+            <a href='contact.html'>Contact</a>
 
-          </nav>
+            {% if user.is_authenticated %}
+            Hello,{{user.first_name}}
+            <a href='logout'>Logout</a>
+            {% else %}
+            <a href='registration.html'>Registration</a>
+            <a href='login.html'>Login</a>
+            {% endif %}
+
+
+          </div>
+        </div>
+        <div class="col-sm-2 col-xs-2 col-md-2 col-lg-2">
+           <div class="covid">
+             <a class="popup-with-form" href='covid19.html'>Covid-19</a>
+           </div>
         </div>
 
       </div>
     </div>
   </header>
+
+    {% block content %}
+
+    {% endblock %}
+  <footer class="footer_top" >
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-4 col-xs-4 col-md-4 col-lg-4">
+          <div class='footer_img'>
+            <img src="static/img/sympchec.png" class="footimg">
+          </div>
+        </div>
+        <div class="col-sm-8 col-xs-8 col-md-8 col-lg-8">
+          <div class="links">
+            <h2>Useful Links</h2>
+                <a href="about.html" style="color:white;padding-right:10%">About</a>
+                <a href="contact.html" style="color:white;padding-right:10%">Contact</a>
+                <a href="registration.html" style="color:white;padding-right:10%">Registration</a>
+                <a href="login.html" style="color:white;padding-right:10%"> Login</a>
+                <a href="covid19.html" style="color:white;padding-right:10%"> Covid19</a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-xs-12 col-md-12 col-lg-12">
+          <div class="copyright">
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

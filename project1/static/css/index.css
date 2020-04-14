@@ -1,0 +1,42 @@
+.slider_area{
+	height:700px;
+	width:100%;
+
+background-repeat: no-repeat;
+	}
+.slider_text{
+padding-top:20%;}
+.diagnose{
+font-size:20px;
+border-radius:15px;
+height:70px;width:160px;
+border:solid;color:skyblue;
+text-align:center;background-color:white;padding-top:13px;}
+
+.diagnose_back{background-repeat: no-repeat;
+height:700px;
+	width:100%;padding:21%;
+	margin-left:7%;
+
+
+}
+.h1diag
+{padding-left:15%;
+}
+.diagform{
+padding-top:20px;
+}
+.diagage{
+padding-left:70%;
+
+}
+.diaggen{
+padding-left:20%;
+
+}
+.diagcon{
+height:45px;width:140px;border-radius:10px;margin-left:55%;margin-top:20px;
+
+
+}
+

@@ -1,4 +1,4 @@
-{% extends 'base.html' %}
+{% extends 'basic.html' %}
 {% load static %}
 <!DOCTYPE html>
 <html lang="en">
@@ -9,27 +9,31 @@
 </head>
 <body>
     {% block content %}
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12 col-xs-12 col-md-12 col-lg-12">
+                <div class="log_head">
+                    <b>Login</b>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-xs-12 col-md-12 col-lg-12">
+                <div class="login_form">
+                    <form action='login' method="post" autocomplete="off"  class="log_form" >
+                                 {% csrf_token %}
+                            <input type="text" id="user" name="username" placeholder="User Name" class="log_id"   required><br>
+                            <input type="password" id="pword" name="password" placeholder="Password" class="log_pass" required ><br>
+                            <input type="Submit" value="&nbsp;&nbsp;Sign In&nbsp;&nbsp;" style="padding-left:10px;padding-right:10px;">
 
-
-<h1 style="text-align:center">Login</h1>
-<div style=" padding-bottom: 50px;  padding-left: 35%;">
-
-    <div id='reg' align="center"  style=" border-style: inset;height: 200px;
-         width: 55%;padding-top: 4%;  padding-right: 50px;  padding-bottom: 50px;  padding-left: 15px;">
-    <form action='login' method="post" autocomplete="off" style="text-align:left" >
-         {% csrf_token %}
-
-        <input type="text" id="user" name="username" placeholder="User Name"  style="height:40px;width:90%;border-radius:5px;margin-bottom:10px;" required><br>
-
-        <input type="password" id="pword" name="password" placeholder="Password" style="height:40px;width:90%;border-radius:5px;margin-bottom:10px;" required ><br>
-        <input type="Submit" value="&nbsp;&nbsp;Sign In&nbsp;&nbsp;" style="padding-left:10px;padding-right:10px;">
-
-         </form>
-
-
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
-</div>
-<div>
+
+
+    <div>
         {% for message in messages%}
         <h3>
             {{message}}

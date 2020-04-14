@@ -1,4 +1,4 @@
-{% extends 'base.html' %}
+{% extends 'basic.html' %}
 {% load static %}
 <!DOCTYPE html>
 <html lang="en">
@@ -8,39 +8,48 @@
 </head>
 <body>
 {% block content %}
-<div class="container"  >
-    <div style="height:500px;width:100%;text-align:center;background:url('static/img/diag.png.png') no-repeat;height: 1100px; width: 100%;
-">
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-12 col-xs-12 col-md-12 col-lg-12">
+            <div class="diagnose_back" style="background-image: url('static/img/diag.png');"  >
+                <h1 class="h1diag">Symptom Checker</h1>
+                <h4> Identify possible conditions related to your symptoms.</h4>
+                <form method="post" action="diagnoseme" autocomplete="off" class="diagform">
+                    {% csrf_token %}
+                    <div class="row">
+                        <div class="col-sm-4 col-xs-4 col-md-4 col-lg-4">
+                            <div class="diagage">
+                                <h2>Age</h2>
+                                <input type="text" name="age" required style="border-radius:5px;height:50px;width:70px;font-size:20px;text-align:center">
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-xs-3 col-md-3 col-lg-3">
+                            <div class="diaggen">
+                                <h2>Gender</h2>
+                                <select style="width:130px;height:50px" id="gender" name="gender">
+                                <option id="male" name="male">
+                                Male
+                                </option>
+                                <option id="female" name="female">
+                                    Female
+                                </option>
+                                </select>
+                            </div>
 
-        <div style="height:130px;width:100%;padding-top:300px">
-            <h1>Symptom Checker</h1>
-            <h3> Identify possible conditions related to your symptoms.</h3>
-        </div>
-        <form method="post" action="diagnoseme" autocomplete="off">
-            {% csrf_token %}
-        <div style="height:250px;width:600px;margin-left:22%;padding-top:150px;padding-left:55px ">
-            <div style="height:150px;width:150px;float:left;">
-                <h2>Age</h2>
-                <input type="text" name="age" style="border-radius:5px;height:50px;width:70px;font-size:20px;text-align:center">
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 col-xs-6 col-lg-6 col-md-6">
+                          <input type="submit" value="Continue  >" class="diagcon">
+                        </div>
+
+                    </div>
+
+                </form>
             </div>
 
-            <div style="float:right;height:150px;width:350px;text-align:left;font-size:20px;padding-left:65px">
-                <h2>Gender</h2>
-                <select style="width:130px;height:50px" id="gender" name="gender">
-                    <option id="male" name="male">
-                        Male
-                    </option>
-                    <option id="female" name="female">
-                        Female
-                    </option>
-                </select>
-            </div>
-            <input type="submit" value="Continue  >" style="border-radius:5px;margin-right:20%;background:#808080;width:110px;height:60px">
-
         </div>
-
-        </form>
-
     </div>
 </div>
 
